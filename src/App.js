@@ -1,26 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import {
+  Chat,
+  Channel,
+  ChannelHeader,
+  Thread,
+  Window
+} from "stream-chat-react"
+import { MessageList, MessageInput } from "stream-react-chat"
+import { StreamChat } from "stream-chat"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+import "stream-chat-react/dist/css/index.css"
